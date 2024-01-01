@@ -1,0 +1,44 @@
+-- IDF_TARGET is not set, guessed 'esp32c3' from sdkconfig '/home/mmourier/simTACX/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/mmourier/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/mmourier/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/mmourier/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file /home/mmourier/simTACX/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/mmourier/.espressif/python_env/idf5.1_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "simTACX" version: e8448c0
+-- Adding linker script /home/mmourier/simTACX/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script /home/mmourier/ESP32/esp-idf-v5.1.1/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /home/mmourier/ESP32/esp-idf-v5.1.1/components/app_trace /home/mmourier/ESP32/esp-idf-v5.1.1/components/app_update /home/mmourier/ESP32/esp-idf-v5.1.1/components/bootloader /home/mmourier/ESP32/esp-idf-v5.1.1/components/bootloader_support /home/mmourier/ESP32/esp-idf-v5.1.1/components/bt /home/mmourier/ESP32/esp-idf-v5.1.1/components/cmock /home/mmourier/ESP32/esp-idf-v5.1.1/components/console /home/mmourier/ESP32/esp-idf-v5.1.1/components/cxx /home/mmourier/ESP32/esp-idf-v5.1.1/components/driver /home/mmourier/ESP32/esp-idf-v5.1.1/components/efuse /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp-tls /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_adc /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_app_format /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_coex /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_common /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_eth /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_event /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_gdbstub /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_hid /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_http_client /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_http_server /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_https_ota /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_https_server /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_hw_support /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_lcd /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_local_ctrl /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_mm /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_netif /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_netif_stack /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_partition /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_phy /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_pm /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_psram /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_ringbuf /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_rom /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_system /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_timer /home/mmourier/ESP32/esp-idf-v5.1.1/components/esp_wifi /home/mmourier/ESP32/esp-idf-v5.1.1/components/espcoredump /home/mmourier/ESP32/esp-idf-v5.1.1/components/esptool_py /home/mmourier/ESP32/esp-idf-v5.1.1/components/fatfs /home/mmourier/ESP32/esp-idf-v5.1.1/components/freertos /home/mmourier/ESP32/esp-idf-v5.1.1/components/hal /home/mmourier/ESP32/esp-idf-v5.1.1/components/heap /home/mmourier/ESP32/esp-idf-v5.1.1/components/http_parser /home/mmourier/ESP32/esp-idf-v5.1.1/components/idf_test /home/mmourier/ESP32/esp-idf-v5.1.1/components/ieee802154 /home/mmourier/ESP32/esp-idf-v5.1.1/components/json /home/mmourier/ESP32/esp-idf-v5.1.1/components/log /home/mmourier/ESP32/esp-idf-v5.1.1/components/lwip /home/mmourier/simTACX/main /home/mmourier/ESP32/esp-idf-v5.1.1/components/mbedtls /home/mmourier/ESP32/esp-idf-v5.1.1/components/mqtt /home/mmourier/ESP32/esp-idf-v5.1.1/components/newlib /home/mmourier/ESP32/esp-idf-v5.1.1/components/nvs_flash /home/mmourier/ESP32/esp-idf-v5.1.1/components/openthread /home/mmourier/ESP32/esp-idf-v5.1.1/components/partition_table /home/mmourier/ESP32/esp-idf-v5.1.1/components/protobuf-c /home/mmourier/ESP32/esp-idf-v5.1.1/components/protocomm /home/mmourier/ESP32/esp-idf-v5.1.1/components/pthread /home/mmourier/ESP32/esp-idf-v5.1.1/components/riscv /home/mmourier/ESP32/esp-idf-v5.1.1/components/sdmmc /home/mmourier/ESP32/esp-idf-v5.1.1/components/soc /home/mmourier/ESP32/esp-idf-v5.1.1/components/spi_flash /home/mmourier/ESP32/esp-idf-v5.1.1/components/spiffs /home/mmourier/ESP32/esp-idf-v5.1.1/components/tcp_transport /home/mmourier/ESP32/esp-idf-v5.1.1/components/ulp /home/mmourier/ESP32/esp-idf-v5.1.1/components/unity /home/mmourier/ESP32/esp-idf-v5.1.1/components/usb /home/mmourier/ESP32/esp-idf-v5.1.1/components/vfs /home/mmourier/ESP32/esp-idf-v5.1.1/components/wear_levelling /home/mmourier/ESP32/esp-idf-v5.1.1/components/wifi_provisioning /home/mmourier/ESP32/esp-idf-v5.1.1/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mmourier/simTACX/build

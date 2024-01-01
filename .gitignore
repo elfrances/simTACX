@@ -60,9 +60,9 @@ dkms.conf
 .vscode/*
 
 # Build products
-build/*
+#build/*
 
 # ESP IDF files
-sdkconfig
-sdkconfig.old
-/build/
+#sdkconfig
+#sdkconfig.old
+#/build/
