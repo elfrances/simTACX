@@ -249,14 +249,14 @@ static const struct ble_gatt_svc_def gatt_svr_svcs[] = {
             .characteristics = (struct ble_gatt_chr_def[]) {
                 {
                     /* Characteristic: ??? 6e40fec2-b5a3-f393-e0a9-e50e24dcca9e */
-                    .uuid = BLE_UUID128_DECLARE(0x96, 0xca, 0xdc, 0x24, 0x0e, 0xe5, 0xa9, 0xe0, 0x93, 0xf3, 0xa3, 0xb5, 0xc2, 0xfe, 0x40, 0x6e),
+                    .uuid = BLE_UUID128_DECLARE(0x9e, 0xca, 0xdc, 0x24, 0x0e, 0xe5, 0xa9, 0xe0, 0x93, 0xf3, 0xa3, 0xb5, 0xc2, 0xfe, 0x40, 0x6e),
                     .access_cb = gatt_svr_chr_access_tacx_fec_over_ble_service,
                     .val_handle = &fec2ChrHandle,
                     .flags = BLE_GATT_CHR_F_NOTIFY,
                 },
                 {
                     /* Characteristic: ??? 6e40fec3-b5a3-f393-e0a9-e50e24dcca9e */
-                    .uuid = BLE_UUID128_DECLARE(0x96, 0xca, 0xdc, 0x24, 0x0e, 0xe5, 0xa9, 0xe0, 0x93, 0xf3, 0xa3, 0xb5, 0xc3, 0xfe, 0x40, 0x6e),
+                    .uuid = BLE_UUID128_DECLARE(0x9e, 0xca, 0xdc, 0x24, 0x0e, 0xe5, 0xa9, 0xe0, 0x93, 0xf3, 0xa3, 0xb5, 0xc3, 0xfe, 0x40, 0x6e),
                     .access_cb = gatt_svr_chr_access_tacx_fec_over_ble_service,
                     .val_handle = &fec3ChrHandle,
                     .flags = BLE_GATT_CHR_F_WRITE,
